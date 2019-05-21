@@ -1,0 +1,2 @@
+ESSID = "<ESSID>"
+Password = "<password>"
