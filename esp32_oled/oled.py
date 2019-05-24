@@ -8,17 +8,36 @@ HEIGHT = 64
 oled = ssd1306.SSD1306_I2C(WIDTH, HEIGHT, i2c)
 
 def hello_world():
+    console('MicroPython on')
+    console('an ESP32 with an')
+    console('attached SSD1306')
+    console('OLED display')
+
+_console_buf = []
+_mcll = WIDTH // 8  # max character line length (character width = 8px)
+def console(text):
+    global _console_buf
+    if "\n" in text:
+        lines = text.split("\n")
+        for line in lines:
+            console(line)
+        return
+    if len(text) > _mcll:
+        lines = [text[i*_mcll:i*_mcll+_mcll] for i in range(int(len(text)/_mcll + 1))]
+        for line in lines:
+            console(line)
+        return
+    if len(_console_buf) == 6:
+        _console_buf = _console_buf[1:] + [text]
+    else:
+        _console_buf.append(text)
     oled.fill(0)
-    oled.text('MicroPython on', 0, 0)
-    oled.text('an ESP32 with an', 0, 10)
-    oled.text('attached SSD1306', 0, 20)
-    oled.text('OLED display', 0, 30)
+    for i, t in enumerate(_console_buf):
+        oled.text(t, 0, i*10)
     oled.show()
 
-def console(text):
-    import time
-    oled.scroll(0, 10)
-    oled.show()
-    time.sleep(0.1)
-    oled.text(text, 0, 54)
+def clear_console():
+    global _console_buf
+    _console_buf = []
+    oled.fill(0)
     oled.show()
