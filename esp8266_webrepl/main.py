@@ -8,7 +8,6 @@ time.sleep(0.5)
 led.off()
 
 import wlan
-import time
 
 time.sleep(0.5)
 led.on()
