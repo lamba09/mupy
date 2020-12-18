@@ -7,7 +7,6 @@ def listen(onMessage, each_loop, config):
     client.set_callback(onMessage)
     client.connect()
     client.publish(config['TOPIC'], "ESP8266 is Connected")
-    client.publish(config['TOPIC'], "off")
     client.subscribe(config['TOPIC'])
     print("ESP8266 is Connected to %s and subscribed to %s topic" % (config['MQTT_BROKER'], config['TOPIC']))
 
