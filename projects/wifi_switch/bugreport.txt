@@ -1,0 +1,193 @@
+[24.12 1:22:58] OSError(-1,)
+Traceback (most recent call last):
+  File "main.py", line 159, in <module>
+  File "mqtt.py", line 27, in listen
+  File "umqtt/simple.py", line 204, in check_msg
+  File "umqtt/simple.py", line 173, in wait_msg
+OSError: -1
+[28.12 1:28:26] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 30, in listen
+  File "umqtt/simple.py", line 103, in disconnect
+OSError: [Errno 103] ECONNABORTED
+[8.1 12:50:19] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 30, in listen
+  File "umqtt/simple.py", line 103, in disconnect
+OSError: [Errno 103] ECONNABORTED
+[8.1 12:55:27] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 18:47:52] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 30, in listen
+  File "umqtt/simple.py", line 103, in disconnect
+OSError: [Errno 103] ECONNABORTED
+[8.1 18:52:48] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 18:57:45] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:2:42] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:7:38] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:12:35] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:17:31] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:22:27] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:27:24] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:32:21] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:37:17] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:42:14] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:47:11] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:52:8] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 19:57:5] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:2:2] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:6:58] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:11:54] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:16:49] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:21:44] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:26:39] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:31:33] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:36:28] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:41:23] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:46:20] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 20:51:16] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 18, in listen
+  File "umqtt/simple.py", line 58, in connect
+OSError: [Errno 103] ECONNABORTED
+[8.1 22:28:0] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 30, in listen
+  File "umqtt/simple.py", line 103, in disconnect
+OSError: [Errno 103] ECONNABORTED
+[8.1 22:44:46] OSError(103,)
+Traceback (most recent call last):
+  File "main.py", line 161, in <module>
+  File "mqtt.py", line 30, in listen
+  File "umqtt/simple.py", line 103, in disconnect
+OSError: [Errno 103] ECONNABORTED
